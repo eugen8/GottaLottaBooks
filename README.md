@@ -9,4 +9,7 @@ started by a group of Grand View students in Web Application Development course.
 2) do your coding 
 3) `git add -A`  and `git commit -a -m "adding instructions how to develop"` 
 4) `git push origin readme-dev-instr`
+5) Create a pull request 
+6) Someone else reviews the request and approves it
+7) You (the original developer) merge the code into the master and delete your branch.
 
