@@ -2,7 +2,6 @@
 Books swap and connection network 
 started by a group of Grand View students in Web Application Development course.
 
-
 after you clone the project, run `composer install` to get all the dependent libraries. 
 
 ## Development process to make a change:
