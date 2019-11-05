@@ -30,7 +30,19 @@ after you clone the project, run `composer install` to get all the dependent lib
 </Directory>
 ```
 
+
+Create a database `gottalottabooks` locally to match what's in .env file. 
+
+To start the project, you may need to run npm install
+then `npm run dev` - to compile all the scss and js into css/js
+you can also run `npm run watch`
+
+
 Learnign Laravel:  
 go through videos in: https://laracasts.com/series/laravel-6-from-scratch
 
 
+TO play around with sass install it locally
+`npm install -g sass`
+then you can create a .scss file and run the sass command on it to generate css. e.g. `sass app.scss app.css`
+More details and info at: 
