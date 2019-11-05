@@ -12,15 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('/login1', function(){
-    return "<html> <body>hello</body> </html>";
-});
-
-Route::get('/login2', function(){
-    return ['hello'=>'1234', 'abc'=>'abc' ];
+    return view('home');
 });
 
 
