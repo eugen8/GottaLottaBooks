@@ -53,7 +53,7 @@
     <div class="carousel-inner" role="listbox">
       <!-- Slide One - Set the background image for this slide in the line below -->
       <div class="carousel-item active" style="background-image: url(assets/book3.jpg)">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-md-block" style="color:DarkRed">
           <h2 class="display-4">Book Swap</h2>
           <p class="lead">This is a place for you to explore the amazing books</p>
         </div>
@@ -67,7 +67,7 @@
       </div>
       <!-- Slide Three - Set the background image for this slide in the line below -->
       <div class="carousel-item" style="background-image: url(assets/book2.jpg) ">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-md-block" style="color:aqua">
           <h2 class="display-4">No Fee</h2>
           <p class="lead">You don't need to spend money to buy your favorite books</p>
         </div>
@@ -127,32 +127,25 @@
   <div class="card shadow border-0">
     <img class="card-img-top" src="https://4.bp.blogspot.com/-InDD3Hm_bhU/XB4_TK3TT7I/AAAAAAAAAJ4/r5tUeCOqq1MTchFh7D7pWdf582A4qYIIwCEwYBhgL/s1600/Businesswoman-working-at-a-computer-1280x720.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title that wraps to a new line</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 class="card-title">Friendly to environment</h5>
+      <p class="card-text"> I can give myself a pat on the back for recycling books and saving the environment in the process. Swapping rather than buying books means less trees are felled to produce reading material.</p>
     </div>
   </div>
 
   <div class="card shadow border-0">
     <img class="card-img-top" src="https://4.bp.blogspot.com/-InDD3Hm_bhU/XB4_TK3TT7I/AAAAAAAAAJ4/r5tUeCOqq1MTchFh7D7pWdf582A4qYIIwCEwYBhgL/s1600/Businesswoman-working-at-a-computer-1280x720.jpg" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Quick! Easy!</h5>
+      <p class="card-text"> At book swapping sites, I simply add the books I want to a wish list and when it comes in to the site, I'm sent an email alert saying its there. Much easier.</p>
     </div>
   </div>
  
   <div class="card shadow border-0">
-    <img class="card-img" src="https://4.bp.blogspot.com/-InDD3Hm_bhU/XB4_TK3TT7I/AAAAAAAAAJ4/r5tUeCOqq1MTchFh7D7pWdf582A4qYIIwCEwYBhgL/s1600/Businesswoman-working-at-a-computer-1280x720.jpg" alt="Card image">
-  </div>
-  <div class="card shadow border-0 p-3 text-right">
-    <blockquote class="blockquote mb-0">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer class="blockquote-footer">
-        <small class="text-muted">
-          Someone famous in <cite title="Source Title">Source Title</cite>
-        </small>
-      </footer>
-    </blockquote>
+    <img class="card-img-top" src="https://4.bp.blogspot.com/-InDD3Hm_bhU/XB4_TK3TT7I/AAAAAAAAAJ4/r5tUeCOqq1MTchFh7D7pWdf582A4qYIIwCEwYBhgL/s1600/Businesswoman-working-at-a-computer-1280x720.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title"> Less Cost</h5>
+      <p class="card-text"> It's more than likely going to save my money. Book swapping sites are free to join, and for the price of postage and one used book from my collection, I can get new books to read.</p>
+    </div>
   </div>
  
 </div>
@@ -173,19 +166,19 @@
     <!-- Team Member 1 -->
     <div class="col-xl-3 col-md-6 mb-4">
       <div class="card border-0 shadow">
-        <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+        <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="Michael">
         <div class="card-body text-center">
-          <h5 class="card-title mb-0">Team Member</h5>
-          <div class="card-text text-black-50">Web Developer</div>
+          <h5 class="card-title mb-0">Michael Nguyen</h5>
+          <div class="card-text text-black-50">SQL Developer</div>
         </div>
       </div>
     </div>
     <!-- Team Member 2 -->
     <div class="col-xl-3 col-md-6 mb-4">
       <div class="card border-0 shadow">
-        <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" class="card-img-top" alt="...">
+        <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" class="card-img-top" alt="Mai">
         <div class="card-body text-center">
-          <h5 class="card-title mb-0">Team Member</h5>
+          <h5 class="card-title mb-0">Mai Huynh</h5>
           <div class="card-text text-black-50">Web Developer</div>
         </div>
       </div>
@@ -193,9 +186,9 @@
     <!-- Team Member 3 -->
     <div class="col-xl-3 col-md-6 mb-4">
       <div class="card border-0 shadow">
-        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="...">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="Steven">
         <div class="card-body text-center">
-          <h5 class="card-title mb-0">Team Member</h5>
+          <h5 class="card-title mb-0">Steven Banks</h5>
           <div class="card-text text-black-50">Web Developer</div>
         </div>
       </div>
@@ -203,10 +196,28 @@
     <!-- Team Member 4 -->
     <div class="col-xl-3 col-md-6 mb-4">
       <div class="card border-0 shadow">
-        <img src="https://source.unsplash.com/ZI6p3i9SbVU/500x350" class="card-img-top" alt="...">
+        <img src="https://source.unsplash.com/ZI6p3i9SbVU/500x350" class="card-img-top" alt="Hien">
         <div class="card-body text-center">
-          <h5 class="card-title mb-0">Team Member</h5>
-          <div class="card-text text-black-50">Web Developer</div>
+          <h5 class="card-title mb-0">Hien Ho</h5>
+          <div class="card-text text-black-50">Graphic Designer</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="Jacob">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Jacob Lietz</h5>
+          <div class="card-text text-black-50">Software Developer</div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="eugen">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Eugen Burianov</h5>
+          <div class="card-text text-black-50">Project Manager</div>
         </div>
       </div>
     </div>
