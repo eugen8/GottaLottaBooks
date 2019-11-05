@@ -30,4 +30,7 @@ after you clone the project, run `composer install` to get all the dependent lib
 </Directory>
 ```
 
+Learnign Laravel:  
+go through videos in: https://laracasts.com/series/laravel-6-from-scratch
+
 
