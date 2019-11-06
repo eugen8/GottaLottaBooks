@@ -46,3 +46,11 @@ TO play around with sass install it locally
 `npm install -g sass`
 then you can create a .scss file and run the sass command on it to generate css. e.g. `sass app.scss app.css`
 More details and info at: 
+
+
+
+
+### bootstrap and UI components
+There seems to have been small changes between Laravel version 5.x and 6.x.
+This is how to integrate Bootstrap: https://laravel.com/docs/6.x/frontend 
+https://laravel.com/docs/6.x/frontend
