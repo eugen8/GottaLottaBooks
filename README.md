@@ -54,3 +54,8 @@ There seems to have been small changes between Laravel version 5.x and 6.x.
 This is how to integrate Bootstrap: https://laravel.com/docs/6.x/frontend 
 https://laravel.com/docs/6.x/frontend
 
+
+To setup the project run:
+`npm install`
+`npm run dev`
+`php artisan migrate`
