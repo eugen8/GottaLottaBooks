@@ -1,12 +1,8 @@
-//
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
+// Variables
+@import 'variables';
 
-/* Color Theme */
-$pink-1-color: #F26398;
-$pink-2-color: #F272AE;
-$purple: #7063BF;
-$green: #45BFA9;
-$red: #F24444;
-
-$black : #000000;
-$white: #fff;
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
