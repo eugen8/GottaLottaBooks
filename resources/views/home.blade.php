@@ -25,25 +25,11 @@ Information to change should show below here
   {{Auth::user()->name}}
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">Action</button>
-    <button class="dropdown-item" type="button">Another action</button>
-    <button class="dropdown-item" type="button">Something else here</button>
+    <button class="dropdown-item" type="button">View my books</button>
+    <button class="dropdown-item" type="button"> Edit Profile</button>
+    <a class="dropdown-item" href="{{ url('/logout') }}"> Logout </a>
   </div>
 </div>
-
-
-
-
-
-<div>
-Current User Email: 
-</br>
-{{Auth::user()->email}}
-</div>
-    {{ Auth::user()->name }} <span class="caret"></span>
-<a href="{{ url('/logout') }}"> Logout </a>
-
-
 @endauth 
 @endsection
 
