@@ -7,6 +7,8 @@
 <meta name="author" content="">
 
 <!-- Bootstrap core CSS -->
+
 <link rel="stylesheet" href="{{('css/app.css')}}" />
+<
 
 <title>GottaLottaBooks book swap and social network</title>
