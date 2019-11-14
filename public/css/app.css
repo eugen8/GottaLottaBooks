@@ -11100,3 +11100,15 @@ a.text-dark:focus {
   }
 }
 
+.custom-navbar {
+  background-color: #7063BF;
+}
+
+.custom-navbar .navbar-brand {
+  color: #fff;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: #fff;
+}
+
