@@ -1,0 +1,121 @@
+
+{
+  "books": [{
+    "id": "1",
+    "title": "Harry Potter and the Half-Blood Prince (Harry Potter, #6)",
+    "isbn": "0439785960",
+    "isbn13": "9780439785969",
+    "description": "The war against Voldemort is not going well: even Muggle governments are noticing. Ron scans the obituary pages of The Daily Prophet looking for familiar names. Dumbledore is absent from Hogwarts for long stretches of time, and the Order of the Phoenix has already suffered losses. And yet... As in all wars, life goes on. Sixth-year students learn to Apparate, and lose a few eyebrows in the process. The Weasley twins expand their business. Teenagers flirt and fight and fall in love. Classes are never straightforward, though Harry receives some extraordinary help from the mysterious Half-Blood Prince. So it's the home front that takes center stage in the multilayered sixth installment of the story of Harry Potter. Harry struggles to uncover the identity of the Half-Blood Prince, the past owner of a potions textbook he now possesses that is filled with ingenious, potentially deadly, spells. But Harry's life is suddenly changed forever when someone close to him is heinously murdered right before his eyes. With Dumbledore's guidance, he seeks out the full, complex story of the boy who became Lord Voldemort, and thereby attempts to find what may be his only vulnerability.--scholastic.com",
+    "image_url": "https://images.gr-assets.com/books/1361039191l/1.jpg",
+    "price": 7.99,
+    "authors": ["J.K. Rowling", "Mary GrandPré"]
+  }, {
+    "id": "10",
+    "title": "Harry Potter Collection (Harry Potter, #1-6)",
+    "isbn": "0439827604",
+    "isbn13": "9780439827607",
+    "description": "Six years of magic, adventure, and mystery make this luxurious boxed set the perfect gift for Harry Potter fans of all ages. Follow Harry from his first days at Hogwarts School for Witchcraft and Wizardry, through his many adventures with Hermione and Ron, to his confrontations with rival Draco Malfoy and the dreaded Professor Snape. From the thrilling search for the Sorcerer's Stone to the Triwizard Tournament to the return of He-Who-Must-Not-Be-Named, each adventure is more riveting and exhilarating than its predecessor, and now all six books are available together for the first time in an elegant hardcover boxed set.",
+    "image_url": "https://images.gr-assets.com/books/1328867351l/10.jpg",
+    "price": 6.99,
+    "authors": ["J.K. Rowling"]
+  }, {
+    "id": "1005",
+    "title": "Think and Grow Rich: The Landmark Bestseller - Now Revised and Updated for the 21st Century",
+    "isbn": "1585424331",
+    "isbn13": "9781585424337",
+    "description": "Think and Grow Rich has been called the \"Granddaddy of All Motivational Literature.\" It was the first book to boldly ask, \"What makes a winner?\" The man who asked and listened for the answer, Napoleon Hill, is now counted in the top ranks of the world's winners himself.The most famous of all teachers of success spent \"a fortune and the better part of a lifetime of effort\" to produce the \"Law of Success\" philosophy that forms the basis of his books and that is so powerfully summarized in this one.In the original Think and Grow Rich, published in 1937, Hill draws on stories of Andrew Carnegie, Thomas Edison, Henry Ford, and other millionaires of his generation to illustrate his principles. In the updated version, Arthur R. Pell, Ph.D., a nationally known author, lecturer, and consultant in human resources management and an expert in applying Hill's thought, deftly interweaves anecdotes of how contemporary millionaires and billionaires, such as Bill Gates, Mary Kay Ash, Dave Thomas, and Sir John Templeton, achieved their wealth. Outmoded or arcane terminology and examples are faithfully refreshed to preclude any stumbling blocks to a new generation of readers.",
+    "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+    "price": 8.99,
+    "authors": ["Napoleon Hill"]
+  }, {
+    "id": "1032",
+    "title": "Trump: The Art of the Deal",
+    "isbn": "0345479173",
+    "isbn13": "9780345479174",
+    "description": "Trump reveals the business secrets that have made him America’s foremost deal maker! “I like thinking big. I always have. To me it’s very simple: If you’re going to be thinking anyway, you might as well think big.”—Donald J. Trump  Here is Trump in action—how he runs his business and how he runs his life—as he meets the people he needs to meet, chats with family and friends, clashes with enemies, and changes the face of the New York City skyline. But even a maverick plays by rules, and Trump has formulated eleven guidelines for success. He isolates the common elements in his greatest deals; he shatters myths; he names names, spells out the zeros, and fully reveals the deal-maker’s art. And throughout, Trump talks—really talks—about how he does it. Trump: The Art of the Deal is an unguarded look at the mind of a brilliant entrepreneur and an unprecedented education in the practice of deal-making. It’s the most streetwise business book there is—and the ultimate read for anyone interested in achieving money and success, and knowing the man behind the spotlight.  ",
+    "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+    "price": 7.99,
+    "authors": ["Donald J. Trump", "Tony Schwartz"]
+  }, {
+    "id": "105",
+    "title": "Chapterhouse: Dune (Dune Chronicles #6)",
+    "isbn": "0441102670",
+    "isbn13": "9780441102679",
+    "description": "The desert planet Arrakis, called Dune, has been destroyed. Now, the Bene Gesserit, heirs to Dune's power, have colonized a green world--and are turning it into a desert, mile by scorched mile.Here is the last book Frank Herbert wrote before his death. A stunning climax to the epic Dune legend that will live on forever...",
+    "image_url": "https://images.gr-assets.com/books/1260954505l/105.jpg",
+    "price": 6.99,
+    "authors": ["Frank Herbert"]
+  }, {
+    "id": "1052",
+    "title": "The Richest Man in Babylon",
+    "isbn": "0451205367",
+    "isbn13": "9780451205360",
+    "description": "This personal finance, worldwide, best-selling classic has been modernized so that you can take advantage of these rich-thinking principles in easy to read modern English. The original, \"King James\" dialogue was likely easy to read 90 years ago, but in modern times, has become difficult for generation X and younger. Learn the secrets of wealth the top 1% know that you don't because you were never taught financial education in school. Learn to keep and multiply your money so that you will prosper and your money will work as hard as you do.",
+    "image_url": "https://images.gr-assets.com/books/1348336780l/1052.jpg",
+    "price": 8.99,
+    "authors": ["George S. Clason"]
+  }, {
+    "id": "106",
+    "title": "Dune Messiah (Dune Chronicles #2)",
+    "isbn": "0441172695",
+    "isbn13": "9780441172696",
+    "description": "Dune Messiah continues the story of the man Muad'dib, heir to a power unimaginable, bringing to completion the centuries-old scheme to create a super-being.\"Brilliant...It is all that Dune was, and maybe a little bit more.\"--Galaxy Magazine",
+    "image_url": "https://images.gr-assets.com/books/1392528394l/106.jpg",
+    "price": 5.99,
+    "authors": ["Frank Herbert"]
+  }, {
+    "id": "1067",
+    "title": "1776",
+    "isbn": "0743226720",
+    "isbn13": "9780743226721",
+    "description": "In this masterful book, David McCullough tells the intensely human story of those who marched with General George Washington in the year of the Declaration of Independence - when the whole American cause was riding on their success, without which all hope for independence would have been dashed and the noble ideals of the Declaration would have amounted to little more than words on paper.Based on extensive research in both American and British archives, 1776 is a powerful drama written with extraordinary narrative vitality. It is the story of Americans in the ranks, men of every shape, size, and color, farmers, schoolteachers, shoemakers, no-accounts, and mere boys turned soldiers. And it is the story of the King's men, the British commander, William Howe, an his highly disciplined redcoats who looked on their rebel foes with contempt and fought with a valor too little known.At the center of the drama, with Washington, are two young American patriots, who, at first, knew no more of war than what they had read in books - Nathaniel Green, a Quaker who was made a general at thirty-three, and Henry Knox, a twenty-five-year-old bookseller who had the preposterous idea of hauling the guns of Fort Ticonderoga overland to Boston in the dead of Winter.But it is the American commander-in-chief who stands foremost - Washington, who had never before led an army in battle. Written as a companion work to his celebrated biography of John Adams, David McCullough's 1776 is another landmark in the literature of American history.",
+    "image_url": "https://images.gr-assets.com/books/1306787560l/1067.jpg",
+    "price": 6.99,
+    "authors": ["David McCullough"]
+  }, {
+    "id": "1078",
+    "title": "The Good Earth (House of Earth, #1)",
+    "isbn": "1416500189",
+    "isbn13": "9781416500186",
+    "description": "This tells the poignant tale of a Chinese farmer and his family in old agrarian China. The humble Wang Lung glories in the soil he works, nurturing the land as it nurtures him and his family. Nearby, the nobles of the House of Hwang consider themselves above the land and its workers; but they will soon meet their own downfall.Hard times come upon Wang Lung and his family when flood and drought force them to seek work in the city. The working people riot, breaking into the homes of the rich and forcing them to flee. When Wang Lung shows mercy to one noble and is rewarded, he begins to rise in the world, even as the House of Hwang falls.",
+    "image_url": "https://images.gr-assets.com/books/1312497600l/1078.jpg",
+    "price": 7.99,
+    "authors": ["Pearl S. Buck"]
+  }, {
+    "id": "1097",
+    "title": "Fast Food Nation: The Dark Side of the All-American Meal",
+    "isbn": "0060838582",
+    "isbn13": "9780060838584",
+    "description": "Fast food has hastened the malling of our landscape, widened the chasm between rich and poor, fueled an epidemic of obesity, and propelled American cultural imperialism abroad. That's a lengthy list of charges, but Eric Schlosser makes them stick with an artful mix of first-rate reportage, wry wit, and careful reasoning.Schlosser's myth-shattering survey stretches from California's subdivisions, where the business was born, to the industrial corridor along the New Jersey Turnpike, where many of fast food's flavors are concocted. Along the way, he unearths a trove of fascinating, unsettling truths -- from the unholy alliance between fast food and Hollywood to the seismic changes the industry has wrought in food production, popular culture, and even real estate.",
+    "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+    "price": 6.99,
+    "authors": ["Eric Schlosser"]
+  }, {
+    "id": "11",
+    "title": "The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)",
+    "isbn": "0345391802",
+    "isbn13": "9780345391803",
+    "description": "Seconds before the Earth is demolished to make way for a galactic freeway, Arthur Dent is plucked off the planet by his friend Ford Prefect, a researcher for the revised edition of The Hitchhiker's Guide to the Galaxy who, for the last fifteen years, has been posing as an out-of-work actor.Together this dynamic pair begin a journey through space aided by quotes from The Hitchhiker's Guide (\"A towel is about the most massively useful thing an interstellar hitchhiker can have\") and a galaxy-full of fellow travelers: Zaphod Beeblebrox--the two-headed, three-armed ex-hippie and totally out-to-lunch president of the galaxy; Trillian, Zaphod's girlfriend (formally Tricia McMillan), whom Arthur tried to pick up at a cocktail party once upon a time zone; Marvin, a paranoid, brilliant, and chronically depressed robot; Veet Voojagig, a former graduate student who is obsessed with the disappearance of all the ballpoint pens he bought over the years.",
+    "image_url": "https://images.gr-assets.com/books/1327656754l/11.jpg",
+    "price": 8.99,
+    "authors": ["Douglas Adams"]
+  }, {
+    "id": "1103",
+    "title": "Snow Flower and the Secret Fan",
+    "isbn": "0812968069",
+    "isbn13": "9780812968064",
+    "description": "In nineteenth-century China, in a remote Hunan county, a girl named Lily, at the tender age of seven, is paired with a laotong, “old same,” in an emotional match that will last a lifetime. The laotong, Snow Flower, introduces herself by sending Lily a silk fan on which she’s painted a poem in nu shu, a unique language that Chinese women created in order to communicate in secret, away from the influence of men.As the years pass, Lily and Snow Flower send messages on fans, compose stories on handkerchiefs, reaching out of isolation to share their hopes, dreams, and accomplishments. Together, they endure the agony of foot-binding, and reflect upon their arranged marriages, shared loneliness, and the joys and tragedies of motherhood. The two find solace, developing a bond that keeps their spirits alive. But when a misunderstanding arises, their deep friendship suddenly threatens to tear apart.",
+    "image_url": "https://images.gr-assets.com/books/1327880508l/1103.jpg",
+    "price": 8.99,
+    "authors": ["Lisa See"]
+  }, {
+    "id": "1110",
+    "title": "The Broker",
+    "isbn": "0385340540",
+    "isbn13": "9780385340540",
+    "description": "In his final hours in the Oval Office, the outgoing President grants a controversial last-minute pardon to Joel Backman, a notorious Washington power broker who has spent the last six years hidden away in a federal prison. What no one knows is that the President issues the pardon only after receiving enormous pressure from the CIA. It seems Backman, in his power broker heyday, may have obtained secrets that compromise the world's most sophisticated satellite surveillance system.Backman is quietly smuggled out of the country in a military cargo plane, given a new name, a new identity, and a new home in Italy. Eventually, after he has settled into his new life, the CIA will leak his whereabouts to the Israelis, the Russians, the Chinese, and the Saudis. Then the CIA will do what it does best: sit back and watch. The question is not whether Backman will survive, there is no chance of that. The question the CIA needs answered is, who will kill him?From the Hardcover edition.",
+    "image_url": "https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png",
+    "price": 5.99,
+    "authors": ["John Grisham"]
+  }]
+}
