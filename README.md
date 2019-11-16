@@ -59,3 +59,15 @@ To setup the project run:
 `npm install`
 `npm run dev`
 `php artisan migrate`
+**Note: for this project, run this command to refresh new changes to the migrations:
+`php artisan migrate:refresh`
+
+### Example: create new migration (Mai)
+this example shows how to create a new table called `books`
+`php artisan make:migration create_books_table`
+to apply migration:
+`php artisan migrate`
+to update the existing table `books`
+`php artisan make:migration update_books_table --table=books`
+to rollback to previous version of migration
+`php artisan migrate:rollback`

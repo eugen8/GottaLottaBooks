@@ -16,9 +16,12 @@ class CreateBookTable extends Migration
         Schema::create('book', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->timestamps();
-            $table->string('book_name');
-            $table->string('author');
-            $table->string('genre');
+            $table->string('title');
+            $table->string('authors');
+            $table->string('isbn');
+            $table->string('isbn13')->nullable();
+            $table->string('description');
+            $table->string('image_url');
         });
     }
 
