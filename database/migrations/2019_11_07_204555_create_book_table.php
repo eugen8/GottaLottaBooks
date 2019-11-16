@@ -13,14 +13,16 @@ class CreateBookTable extends Migration
      */
     public function up()
     {
+        $timestamps = false;
         Schema::create('book', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->timestamps();
+            $table->timestamp('created_at')->default(\DB::raw('CURRENT_TIMESTAMP'));
+            $table->timestamp('updated_at')->default(\DB::raw('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'));;
             $table->string('title');
             $table->string('authors');
             $table->string('isbn');
             $table->string('isbn13')->nullable();
-            $table->string('description');
+            $table->string('description',10000);
             $table->string('image_url');
         });
     }

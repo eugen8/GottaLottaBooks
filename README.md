@@ -61,6 +61,8 @@ To setup the project run:
 `php artisan migrate`
 **Note: for this project, run this command to refresh new changes to the migrations:
 `php artisan migrate:refresh`
+insert new books to database
+`php artisan db:seed`
 
 ### Example: create new migration (Mai)
 this example shows how to create a new table called `books`
