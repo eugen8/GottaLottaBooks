@@ -8,13 +8,17 @@ section {
 
 section .section-title {
   text-align: center;
-  color: darkolivegreen;
+  color: purple;
   margin-bottom: 50px;
   text-transform: uppercase;
 }
 
 #footer {
+<<<<<<< HEAD
   background: #9561e2 !important;
+=======
+  background: purple !important;
+>>>>>>> 1496388... new branch, corrected some styling problems
 }
 
 #footer h5 {
