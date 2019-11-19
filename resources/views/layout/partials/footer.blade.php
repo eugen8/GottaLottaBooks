@@ -5,7 +5,7 @@
                     <div class="col-xs-12 col-sm-4 col-md-4">
                         <h5>Quick Links</h5>
                         <ul class="list-unstyled quick-links">
-                            <li>>Home</li>
+                            <li><a href="#">Home<a></li>
                             <li>>About</li>
                             <li>>FAQ</li>
                         </ul>
