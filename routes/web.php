@@ -18,7 +18,12 @@
 
 
 Auth::routes();
+
 Route::get('/', 'LandingController@index')->name('landingPage');
 Route::get('/home', 'LandingController@index')->name('landingPage');
-//Route::get('/', 'HomeController@index')->name('home');
-//Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/logout', 'HomeController@logout');
+
+
+Route::get('/profile', function () {
+    return view('user.profileEdit');
+});

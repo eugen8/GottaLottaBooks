@@ -2,29 +2,34 @@
 
 @section('content')
    
-<div class="container">
-  <div class="row">
-    <div class="col">
-      1 of 3
-    </div>
-    <div class="col-6">
-      2 of 3 (wider)
-    </div>
-    <div class="col">
-      3 of 3
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      1 of 3
-    </div>
-    <div class="col-5">
-      2 of 3 (wider)
-    </div>
-    <div class="col">
-      3 of 3
-    </div>
-  </div>
+<div>
+Information to change should show below here
 </div>
 
+@guest
+
+    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+
+@if (Route::has('register'))
+        <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+@endif
+</div>
+
+
+@endguest
+
+@auth
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  {{Auth::user()->name}}
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button">View my books</button>
+    <button class="dropdown-item" type="button"> Edit Profile</button>
+    <a class="dropdown-item" href="{{ url('/logout') }}"> Logout </a>
+  </div>
+</div>
+@endauth 
 @endsection
+

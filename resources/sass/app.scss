@@ -4,5 +4,24 @@
 // Variables
 @import 'variables';
 
+
+@import 'footer';
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+
+
+//custom navbar
+.custom-navbar{
+    background-color:#7063BF; 
+
+    .navbar-brand {
+        color:#fff;
+    }
+
+    .navbar-nav .nav-link{
+        color:#fff;
+    }
+
+}
