@@ -49350,8 +49350,6 @@ module.exports = function(module) {
  */
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-__webpack_require__(/*! ./test */ "./resources/js/test.js");
-
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
 /**
  * The following block of code may be used to automatically register your
@@ -49490,17 +49488,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/test.js":
-/*!******************************!*\
-  !*** ./resources/js/test.js ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-window.alert('hello there');
-
-/***/ }),
-
 /***/ "./resources/sass/app.scss":
 /*!*********************************!*\
   !*** ./resources/sass/app.scss ***!
@@ -49519,8 +49506,8 @@ window.alert('hello there');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\nhuma\Desktop\GRANDVIEW\web_application\dev\GottaLottaBooks\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\nhuma\Desktop\GRANDVIEW\web_application\dev\GottaLottaBooks\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\User\Desktop\GottaLottaBooks\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\User\Desktop\GottaLottaBooks\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
