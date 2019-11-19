@@ -5,24 +5,24 @@
                     <div class="col-xs-12 col-sm-4 col-md-4">
                         <h5>Quick Links</h5>
                         <ul class="list-unstyled quick-links">
-                            <li><a href="#">Home<a></li>
-                            <li>>About</li>
-                            <li>>FAQ</li>
+                            <li><a href="#" target="_blank">>Home</a></li>
+                            <li><a href="#" target="_blank">>About</a></li>
+                            <li><a href="#" target="_blank">>FAQ</a></li>
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4">
                         <h5>Quick Links</h5>
                         <ul class="list-unstyled quick-links">
-                            <li>>Sign Up</li>
-                            <li>>Partners</li>
-                            <li>>Careers</li>
+                            <li><a href="#" target="_blank">>Sign Up</a></li>
+                            <li><a href="#" target="_blank">>Partners</a></li>
+                            <li><a href="#" target="_blank">>Careers</a></li>
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-4 col-md-4">
                         <h5>Quick Links</h5>
                         <ul class="list-unstyled quick-links">
-                            <li>>Blog</li>
-                            <li>>Des Moines Libraries</li>
+                            <li><a href="#" target="_blank">>Blog</a></li>
+                            <li><a href="#" target="_blank">>Des Moines Libraries</a></li>
                             <li><a href="https://github.com/eugen8/GottaLottaBooks" target="_blank">>Git Repository</a></li>
                         </ul>
                     </div>
