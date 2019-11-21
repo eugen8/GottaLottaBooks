@@ -22,6 +22,9 @@ Auth::routes();
 Route::get('/', 'LandingController@index')->name('landingPage');
 Route::get('/home', 'LandingController@index')->name('landingPage');
 Route::get('/logout', 'HomeController@logout');
+Route::get('/userprofile',function(){
+    return view('profile');
+});
 
 
 Route::get('/profile', function () {
