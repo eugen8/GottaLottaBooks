@@ -13,9 +13,11 @@ let books = axios.get('data/books.json').then((json) => json.data.books)
             <div class="col-4 card">
         <img class="card-img-top" style="height:300px; width:300px;" src="${grid3Books[i][j]['image_url']}" alt="Card image">
         <div class="card-body">
-          <h4 class="card-title">John Doe</h4>
-          <p class="card-text">Some example text.</p>
-          <a href="#" class="btn btn-primary">See Profile</a>
+          <h3 class="card-title">${grid3Books[i][j]['title']}</h3>
+          <h5 class="card-title">ISBN: ${grid3Books[i][j]['isbn']}</h5>
+          <h5 class="card-title">Authors: ${grid3Books[i][j]['authors']}</h5>
+          <p class="card-text">${trimString(grid3Books[i][j]['description'],50)}</p>
+          <a href="#" class="btn btn-primary">See Details</a>
         </div>
         </div>
             `
@@ -29,3 +31,9 @@ let books = axios.get('data/books.json').then((json) => json.data.books)
         `;
         document.getElementById('content').innerHTML = content;
     });
+function trimString(str,limitLength){
+    if(str && str.length>limitLength){
+        return str.substring(0,limitLength)+'...';
+    }
+    return str;
+}
