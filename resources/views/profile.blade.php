@@ -29,6 +29,7 @@
             <img src="https://via.placeholder.com/300C/O https://placeholder.com/" class="rounded mx-auto d-block" alt="...">
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             <br><table class="table table-striped table-hover table-dark">
                 <thead>
@@ -63,6 +64,8 @@
 
 
 >>>>>>> 580d6b6... profile_rough
+=======
+>>>>>>> 32e0370... removedtable
             </p>
 
             </div>
