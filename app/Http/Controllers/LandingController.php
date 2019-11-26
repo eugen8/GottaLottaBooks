@@ -23,6 +23,9 @@ class LandingController extends Controller
      */
     public function index()
     {
+
+        //get list of books from DB
+        //redirect to the view with variable 'books'...
         return view('landingPage');
     }
     

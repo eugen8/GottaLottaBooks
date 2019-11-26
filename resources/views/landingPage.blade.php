@@ -5,7 +5,12 @@
 <!-- Scripts -->
 @endpush
 @section('content')
-<div id="content"></div>
+<div id="content">
+
+<!-- iterate through the list of books and display each book --> 
+
+
+</div>
 
 @endsection
 @push('footer-scripts')
