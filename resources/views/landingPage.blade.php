@@ -5,12 +5,27 @@
 <!-- Scripts -->
 @endpush
 @section('content')
-<div id="content">
+<div id="content" class="container">
 
 <!-- iterate through the list of books and display each book --> 
-
-
+<div class="row">
+@foreach ($books as $book)
+            <div class="col-4 card">
+            Iteration number is: {{$loop->index}}
+        <img class="card-img-top"
+             src="{{$book -> image_url}}" alt="Card image">
+        <div class="card-body">
+          <h3 class="card-title">{{$book->title}}</h3>
+          <h5 class="card-title">ISBN: TBD</h5>
+          <h5 class="card-title">Authors: TBD</h5>
+          <p class="card-text">TBD</p>
+          <a href="/glb/book/{{$book->id}}" class="btn btn-primary">TBD link See Details</a>
+        </div>
+        </div>
+@endforeach
 </div>
+
+</div><!--content end-->
 
 @endsection
 @push('footer-scripts')
