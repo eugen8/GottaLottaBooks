@@ -9,6 +9,6 @@
 
 @endsection
 @push('footer-scripts')
-<script type="text/javascript" src="{{ URL::asset('js/loadBooks.js') }}"></script>
+<!-- <script type="text/javascript" src="{{ URL::asset('js/loadBooks.js') }}"></script> -->
 @endpush
 
