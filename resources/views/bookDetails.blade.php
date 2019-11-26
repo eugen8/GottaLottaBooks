@@ -46,7 +46,10 @@
 							<button class="add-to-cart btn btn-default" type="button">Contact Owner</button>
 							<!-- <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button> -->
 						</div>
+<<<<<<< HEAD
 						@endforeach
+=======
+>>>>>>> a0984b5... bookDetails (#16)
 					</div>
 				</div>
 			</div>
