@@ -8,6 +8,6 @@
 
 <!-- Bootstrap core CSS -->
 
-<link rel="stylesheet" href="{{('css/app.css')}}" />
+<link rel="stylesheet" href="{{asset('css/app.css')}}" />
 @stack('head')
 <title>GottaLottaBooks book swap and social network</title>
