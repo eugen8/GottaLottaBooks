@@ -22,12 +22,11 @@ Auth::routes();
 Route::get('/', 'LandingController@index')->name('landingPage');
 Route::get('/home', 'LandingController@index')->name('landingPage');
 Route::get('/book/{id}', 'BookController@index')->name('bookDetails');
+Route::get('/profileEdit', 'ProfileEditController@index')->name('profileEdit');
+Route::get('/profile', 'ProfileEditController@index')->name('profileEdit');
+Route::post('/profile', 'ProfileEditcontroller@update')->name('profileEdit');
 Route::get('/logout', 'HomeController@logout');
 Route::get('/userprofile',function(){
     return view('profile');
 });
 
-
-Route::get('/profile', function () {
-    return view('user.profileEdit');
-});
