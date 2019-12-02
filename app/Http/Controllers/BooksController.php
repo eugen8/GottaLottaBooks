@@ -9,13 +9,7 @@ class BooksController extends Controller
     public function index() {
 
         //$pages = Page::all();;
-        $books=array(
-            "title" => "hello",
-            "description" => "test test test"
-          );
-          return response()->json([
-            'books' => $books
-        ], 200);
+        return Book::all();
     }
    
 
