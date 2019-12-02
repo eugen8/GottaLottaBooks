@@ -29,11 +29,3 @@ Route::get('/userprofile',function(){
     return view('profile');
 });
 
-
-// Route::get('/profile', function () {
-//     return view('user.profileEdit');
-// });
-
-
-// Route::get('users/{user}',  ['as' => 'users.edit', 'uses' => 'UserController@edit']);
-// Route::patch('users/{user}/update',  ['as' => 'users.update', 'uses' => 'UserController@update']);
