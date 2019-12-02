@@ -8,7 +8,9 @@ class BooksController extends Controller
 {
     public function index() {
 
-        //$pages = Page::all();;
+        /**
+         * return all the books
+         */
         return Book::all();
     }
    
