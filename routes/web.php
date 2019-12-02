@@ -21,6 +21,7 @@ Auth::routes();
 
 Route::get('/', 'LandingController@index')->name('landingPage');
 Route::get('/home', 'LandingController@index')->name('landingPage');
+Route::get('/book/{id}', 'BookController@index')->name('bookDetails');
 Route::get('/logout', 'HomeController@logout');
 Route::get('/userprofile',function(){
     return view('profile');

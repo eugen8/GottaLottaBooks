@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use DB;
+use View;
 
 class LandingController extends Controller
 {
@@ -23,7 +25,11 @@ class LandingController extends Controller
      */
     public function index()
     {
-        return view('landingPage');
+
+        //get list of books from DB
+        $books = DB::select('select * from book');
+        //redirect to the view with variable 'books'...
+        return view('landingPage',  ['books' => $books]);
     }
     
 }
