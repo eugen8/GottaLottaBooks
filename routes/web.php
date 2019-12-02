@@ -21,7 +21,8 @@ Auth::routes();
 
 Route::get('/', 'LandingController@index')->name('landingPage');
 Route::get('/home', 'LandingController@index')->name('landingPage');
-Route::get('/profileEdit', 'ProfileEditController@index')->name('profileEdit');
+Route::get('/profile', 'ProfileEditController@index')->name('profileEdit');
+Route::post('/profile', 'ProfileEditcontroller@update')->name('profileEdit');
 
 Route::get('/logout', 'HomeController@logout');
 Route::get('/userprofile',function(){
@@ -29,10 +30,10 @@ Route::get('/userprofile',function(){
 });
 
 
-Route::get('/profile', function () {
-    return view('user.profileEdit');
-});
+// Route::get('/profile', function () {
+//     return view('user.profileEdit');
+// });
 
 
-Route::get('users/{user}',  ['as' => 'users.edit', 'uses' => 'UserController@edit']);
-Route::patch('users/{user}/update',  ['as' => 'users.update', 'uses' => 'UserController@update']);
+// Route::get('users/{user}',  ['as' => 'users.edit', 'uses' => 'UserController@edit']);
+// Route::patch('users/{user}/update',  ['as' => 'users.update', 'uses' => 'UserController@update']);
