@@ -1,4 +1,4 @@
-let books = axios.get('data/books.json').then((json) => json.data.books)
+let books = axios.get('api/books').then((json) => json.data)
     .then((books) => {
         let grid3Books = [];
         while(books.length) grid3Books.push(books.splice(0,3));
