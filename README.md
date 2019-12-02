@@ -66,6 +66,9 @@ insert new books to database
 
 ### Example: create new migration (Mai)
 this example shows how to create a new table called `books`
+create `book` model and migration:
+`php artisan make:model Book -m`
+or only migration:
 `php artisan make:migration create_books_table`
 to apply migration:
 `php artisan migrate`
