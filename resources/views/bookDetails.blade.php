@@ -7,9 +7,9 @@
 			<div class="container-fliud">
 				<div class="wrapper row">
 					<div class="preview col-md-6">
-						
+						@if(isset($book as $books)
 						<div class="preview-pic tab-content">
-						  <div class="tab-pane active" id="pic-1"><img src="{{asset('img/image1.jpg')}}" class ="img-fluid" alt ="Responsive image"></div>
+						  <div class="tab-pane active" id="pic-1"><img src="{{$books->img_url}}" class ="img-fluid" alt ="Responsive image"></div>
 
 						</div>
 						<!-- <ul class="preview-thumbnail nav nav-tabs">
@@ -46,6 +46,7 @@
 							<button class="add-to-cart btn btn-default" type="button">Contact Owner</button>
 							<!-- <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button> -->
 						</div>
+						@endforeach
 					</div>
 				</div>
 			</div>

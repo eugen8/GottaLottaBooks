@@ -16,9 +16,9 @@
              src="{{$book -> image_url}}" alt="Card image">
         <div class="card-body">
           <h3 class="card-title">{{$book->title}}</h3>
-          <h5 class="card-title">ISBN: TBD</h5>
-          <h5 class="card-title">Authors: TBD</h5>
-          <p class="card-text">TBD</p>
+          <h5 class="card-title">ISBN: {{$book->isbn}}</h5>
+          <h5 class="card-title">Author(s): {{$book->authors}}</h5>
+          <p class="card-text">{{$book->description}}</p>
           <a href="/glb/book/{{$book->id}}" class="btn btn-primary">TBD link See Details</a>
         </div>
         </div>

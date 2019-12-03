@@ -14,16 +14,44 @@
 
 //custom navbar
 .custom-navbar{
-    background-color:#7063BF; 
+    background-color: $purple !important; 
+}
 
-    .navbar-brand {
-        color:#fff;
-    }
+#glb{
+  //color:#fff;
+  color: floralwhite;
+}
 
-    .navbar-nav .nav-link{
-        color:#fff;
-    }
+#navLinks a{
+  //color:#fff;
+  color: floralwhite;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
 
+#navLinks a:hover{
+  margin-left: 5px;
+  font-weight: 700;
+  color: darkorange;
+}
+
+#searchBtn{
+  color: floralwhite;
+  border-color: floralwhite;
+}
+
+#searchBtn:hover{
+  color: darkorange;
+  background-color: floralwhite;
+}
+
+#logRegLink{
+  color: floralwhite;
+}
+
+#logRegLink:hover{
+  color: darkorange;
 }
 
 .preview {
