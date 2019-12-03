@@ -11,7 +11,7 @@
 <div class="row">
 @foreach ($books as $book)
             <div class="col-4 card">
-            Iteration number is: {{$loop->index}}
+            <!--Iteration number is: {{$loop->index}}-->
         <img class="card-img-top"
              src="{{$book -> image_url}}" alt="Card image">
         <div class="card-body">
@@ -19,7 +19,7 @@
           <h5 class="card-title">ISBN: {{$book->isbn}}</h5>
           <h5 class="card-title">Author(s): {{$book->authors}}</h5>
           <p class="card-text">{{$book->description}}</p>
-          <a href="/glb/book/{{$book->id}}" class="btn btn-primary">TBD link See Details</a>
+          <a href="/glb/book/{{$book->id}}" class="btn btn-primary">See Details</a>
         </div>
         </div>
 @endforeach
