@@ -8,7 +8,7 @@
             <div class="text-center">
             <img src="https://via.placeholder.com/160C/O https://placeholder.com/"class="rounded">
 
-            <h2>@Tim_da_King</h2>
+            <h2>@$user</h2>
 
             <a class="btn btn-primary btn-xs" href="#" role="button">Message Me</a>
             <a class="btn btn-primary btn-xs" href="#" role="button">Request Swap</a>
