@@ -12,10 +12,10 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Link1</a>
+              <a class="nav-link" href="/glb/profile">Edit Your Profile</a>
           </li>
           <li class="nav-item">
-              <a class="nav-link" href="#">Link2</a>
+              <a class="nav-link" href="/glb/userprofile">View Your Profile</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
