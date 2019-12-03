@@ -37,7 +37,8 @@
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
         <button class="dropdown-item" type="button">View my books</button>
-        <a class="dropdown-item" href="{{ url('/profile')}}">Edit Profile</a>
+        <a class="dropdown-item" href="{{ url('/profile') }}"> Edit Profile</a>
+        <a class="dropdown-item" href="{{ url('/userprofile') }}"> Your Profile </a>
         <a class="dropdown-item" href="{{ url('/logout') }}"> Logout </a>
         </div>
         </div>
