@@ -13,7 +13,12 @@
                     <div class="col-xs-12 col-sm-4 col-md-4">
                         <h5>Quick Links</h5>
                         <ul class="list-unstyled quick-links">
-                            <li><a href="{{url('/register')}}" target="_blank">>Sign Up</a></li>
+                            @guest
+                            <li><a href="{{url('/register')}}">>Sign Up</a></li>
+                            @endguest
+                            @auth
+                            <li><a href="{{url('/userprofile')}}">>Profile</a></li>
+                            @endauth
                             <li><a href="#" target="_blank">>Partners</a></li>
                             <li><a href="#" target="_blank">>Careers</a></li>
                         </ul>
