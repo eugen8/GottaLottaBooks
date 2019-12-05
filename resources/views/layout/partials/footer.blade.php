@@ -5,7 +5,7 @@
                     <div class="col-xs-12 col-sm-4 col-md-4">
                         <h5>Quick Links</h5>
                         <ul class="list-unstyled quick-links">
-                            <li><a href="#" target="_blank">>Home</a></li>
+                            <li><a href="{{url('/')}}" target="_blank">>Home</a></li>
                             <li><a href="#" target="_blank">>About</a></li>
                             <li><a href="#" target="_blank">>FAQ</a></li>
                         </ul>
@@ -13,7 +13,7 @@
                     <div class="col-xs-12 col-sm-4 col-md-4">
                         <h5>Quick Links</h5>
                         <ul class="list-unstyled quick-links">
-                            <li><a href="#" target="_blank">>Sign Up</a></li>
+                            <li><a href="{{url('/register')}}" target="_blank">>Sign Up</a></li>
                             <li><a href="#" target="_blank">>Partners</a></li>
                             <li><a href="#" target="_blank">>Careers</a></li>
                         </ul>
