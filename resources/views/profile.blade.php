@@ -28,6 +28,44 @@
             <img src="https://via.placeholder.com/300C/O https://placeholder.com/" class="rounded float-right" alt="...">
             <img src="https://via.placeholder.com/300C/O https://placeholder.com/" class="rounded mx-auto d-block" alt="...">
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            <br><table class="table table-striped table-hover table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Book Title</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Paul</td>
+                    <td>Bird</td>
+                    <td>The Wicked Man</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>Gain 10lbs in 2 days</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>Fly Like an Eagle</td>
+                  </tr>
+                </tbody>
+              </table>
+
+
+>>>>>>> 580d6b6... profile_rough
+=======
+>>>>>>> 32e0370... removedtable
             </p>
 
             </div>
