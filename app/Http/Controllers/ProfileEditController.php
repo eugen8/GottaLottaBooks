@@ -25,6 +25,13 @@ class ProfileEditController extends Controller
         $user->email = $request->input('email');
         $user->zip =$request->input('zip');
 
+        //$request->image->move(public_path('images'), $user->id . '.' . $request->image->extension());
+        if($files = $request->file('image')) {
+            $profileImage = $user->id . '.' . $files->getClientOriginalExtension();
+            $files->move(public_path('images'), $profileImage);
+            $user->image = $profileImage;
+        }
+
         $user->save();
 
         return back();

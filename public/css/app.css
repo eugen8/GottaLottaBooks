@@ -11200,6 +11200,10 @@ a.text-dark:focus {
   transition: 0.5s all ease;
 }
 
+.profile-image {
+  max-height: 140px;
+}
+
 #navLinks a:hover {
   margin-left: 5px;
   font-weight: 700;

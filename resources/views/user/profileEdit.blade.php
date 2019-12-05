@@ -13,7 +13,7 @@
                                 <div class="mx-auto" style="width: 140px;">
                                     <div class="d-flex justify-content-center align-items-center rounded"
                                         style="height: 140px; background-color: rgb(233, 236, 239);">
-                                        <img src="{{base_path('public/images/') . $user->image}}" />
+                                        <img class="img-fluid profile-image" src="{{url('/images/' . $user->image)}}" />
                                     </div>
                                 </div>
                             </div>
@@ -23,10 +23,10 @@
                                     <p class="mb-0">@GottaLottaBooks.profile</p>
                                     <div class="text-muted"><small>Last seen 2 hours ago</small></div>
                                     <div class="mt-2">
-                                        <button class="btn btn-primary" type="button">
+                                        <!-- <button class="btn btn-primary" type="button">
                                             <i class="fa fa-fw fa-camera"></i>
                                             <span>Change Photo</span>
-                                        </button>
+                                        </button> -->
                                     </div>
                                 </div>
                                 <div class="text-center text-sm-right">
@@ -39,7 +39,7 @@
                         </ul>
                         <div class="tab-content pt-2">
                             <div class="tab-pane active">
-                                <form class="form" method="post" action="{{url('profile')}}">
+                                <form class="form" method="post" action="{{url('profile')}}" enctype="multipart/form-data">
                                 {{ csrf_field() }}
                                     <div class="row">
                                         <div class="col">
