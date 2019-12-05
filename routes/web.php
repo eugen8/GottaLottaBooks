@@ -24,6 +24,7 @@ Route::get('/home', 'LandingController@index')->name('landingPage');
 Route::get('/profile', 'ProfileEditController@index')->name('profileEdit');
 Route::post('/profile', 'ProfileEditcontroller@update')->name('profileEdit');
 
+Route::get('/book/{id}', 'BookController@index')->name('bookDetails');
 Route::get('/logout', 'HomeController@logout');
 Route::get('/userprofile',function(){
     return view('profile');
