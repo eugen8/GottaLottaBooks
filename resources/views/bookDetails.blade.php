@@ -7,9 +7,8 @@
 			<div class="container-fliud">
 				<div class="wrapper row">
 					<div class="preview col-md-6">
-						@if(isset($book as $books)
 						<div class="preview-pic tab-content">
-						  <div class="tab-pane active" id="pic-1"><img src="{{$books->img_url}}" class ="img-fluid" alt ="Responsive image"></div>
+						  <div class="tab-pane active" id="pic-1"><img src="{{$book->image_url}}" class ="img-fluid" alt ="Responsive image"></div>
 
 						</div>
 						<!-- <ul class="preview-thumbnail nav nav-tabs">
@@ -19,7 +18,7 @@
 					</div>
 					
 					<div class="details col-md-6">
-						<h2 class="product-title">Computer Science</h2>
+						<h2 class="product-title">{{$book->title}}</h2>
 						<div class="rating">
 							<div class="stars">
 								<span class="fa fa-star checked"></span>
@@ -31,8 +30,8 @@
 							<span class="review-no">41 reviews</span>
 						</div>
 						<h3>About the book</h3>
-						<p class="product-description">Computer Science: An Interdisciplinary Approach  is the ideal modern introduction to computer science with Java programming for both students and professionals. Taking a broad, applications-based approach, Sedgewick and Wayne teach through important examples from science, mathematics, engineering, finance, and commercial computing. </p>
-						<h4 class="price">Author: <span>Robert Sedgewick and Kevin Wayne’s</span></h4>
+						<p class="product-description">{{$book->description}}</p>
+						<h4 class="price">Author: <span>{{$book->authors}}</span></h4>
 						<p class="vote"><strong>2</strong> of users have the book right now. <strong> Mai Huynh, Hien Ho</strong></p>
 						<h4 class="sizes">Owners:
 							<span class="owner1" data-toggle="tooltip" title="small">Mike Nguyen, &nbsp; </span>
@@ -46,7 +45,10 @@
 							<button class="add-to-cart btn btn-default" type="button">Contact Owner</button>
 							<!-- <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button> -->
 						</div>
+<<<<<<< HEAD
 						@endforeach
+=======
+>>>>>>> a0984b5... bookDetails (#16)
 					</div>
 				</div>
 			</div>
