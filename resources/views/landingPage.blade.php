@@ -13,7 +13,7 @@
             <div class="col-4 card">
             <!--Iteration number is: {{$loop->index}}-->
         <img class="card-img-top"
-             src="{{$book -> image_url}}" alt="Card image">
+             src="http://covers.openlibrary.org/b/isbn/{{$book->isbn}}-M.jpg" height="300" width="300" alt="Card image">
         <div class="card-body">
           <h3 class="card-title">{{$book->title}}</h3>
           <h5 class="card-title">ISBN: {{$book->isbn}}</h5>
