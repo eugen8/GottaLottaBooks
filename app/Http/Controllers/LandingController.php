@@ -27,7 +27,7 @@ class LandingController extends Controller
     {
 
         //get list of books from DB
-        $books = DB::select('select * from book');
+        $books = DB::select('select id, title, authors, isbn, substring(description, 1, 250) as description from book');
         //redirect to the view with variable 'books'...
         return view('landingPage',  ['books' => $books]);
     }
