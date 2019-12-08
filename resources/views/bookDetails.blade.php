@@ -8,7 +8,7 @@
 				<div class="wrapper row">
 					<div class="preview col-md-6">
 						<div class="preview-pic tab-content">
-						  <div class="tab-pane active" id="pic-1"><img src="{{$book->image_url}}" class ="img-fluid" alt ="Responsive image"></div>
+						  <div class="tab-pane active" id="pic-1"><img src="http://covers.openlibrary.org/b/isbn/{{$book->isbn}}-L.jpg" class ="img-fluid" alt ="Responsive image"></div>
 
 						</div>
 						<!-- <ul class="preview-thumbnail nav nav-tabs">
